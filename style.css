@@ -1,33 +1,36 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('fonts/Nunito-VariableFont_wght.ttf');
+}
+
 body {
     margin: 0;
     background-color: #cdcdcd;
 }
 
 .section-background {
-    height: 100%
+    height: 100%;
 }
 
-.schedule-div {
+#schedule-div {
     margin: auto;
     margin-left: 50px;
     margin-right: auto;
     margin-top: 50px;
     float: left;
-    height: 75%;
-    width: 60%;
+    height: 70vh;
+    width: 63%;
     border-radius: 20px;
 
-
     background-color: white;
-    
 }
 
-.aside-schedule-div {
+#aside-schedule-div {
     margin: auto;
     margin-top: 50px;
     margin-right: 50px;
     float: right;
-    height: 75%;
+    height: 70vh;
     width: 25%;
     border-radius: 20px;
 
@@ -46,6 +49,64 @@ body {
     margin-left: 25px;
 }
 
-.avatar-logo {
-    float: right;
+#Avatar\ Icon {
+    height: 75px;
+}
+
+.schedule-p {
+    margin-left: 25px;
+    margin-top: 15px;
+
+    font-family: 'Nunito';
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.aside-p {
+    margin-left: 25px;
+    margin-top: 15px;
+
+    font-family: 'Nunito';
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.user-button {
+    background-image: url(images/user.svg);
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10vh;
+    cursor:pointer;
+    height: 25px;
+    width: 30px;
+    scale: 300%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 95vw;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e1e1e1;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
 }

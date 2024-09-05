@@ -1,24 +1,39 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="index.js"></script>
     <title>PBS</title>
 </head>
 <body>
     <header>
         <section class="header-blue">
             <img src="images/pbs_share_og.fdd9430d1c12.png" class="header-logo">
-            <img src="images/avatar.png" class="avatar-icon">
+            <div class="dropdown">
+                <button class="user-button" onclick="dropDownMenu()">
+                    <div id="profileDropdown" class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </button>
+            </div>
         </section>
     </header>
     <main>
         <section class="section-background">
-            <div class="schedule-div">
-
+            <div id="schedule-div">
+                <p class="schedule-p">
+                    Schedule
+                </p>
             </div>
-            <aside class="aside-schedule-div">
-
+            <aside id="aside-schedule-div">
+                <p class="aside-p">
+                    Delays
+                </p>
             </aside>
         </section>
     </main>
