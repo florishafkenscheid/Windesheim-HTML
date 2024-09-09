@@ -12,7 +12,7 @@ body {
     height: 100%;
 }
 
-#schedule-div {
+#planning-div {
     margin: auto;
     margin-left: 50px;
     margin-right: auto;
@@ -25,7 +25,7 @@ body {
     background-color: white;
 }
 
-#aside-schedule-div {
+#aside-planning-div {
     margin: auto;
     margin-top: 50px;
     margin-right: 50px;
@@ -53,7 +53,7 @@ body {
     height: 75px;
 }
 
-.schedule-p {
+.planning-p {
     margin-left: 25px;
     margin-top: 15px;
 
@@ -65,28 +65,32 @@ body {
 .aside-p {
     margin-left: 25px;
     margin-top: 15px;
+    margin-bottom: 0px;
 
-    font-family: 'Nunito';
     font-size: xx-large;
     font-weight: bold;
+}
+
+p, .aside-planning-div {
+    font-family: 'Nunito';
 }
 
 .user-button {
     background-image: url(images/user.svg);
     background-color: transparent;
     border: none;
-    padding: 5px;
-    margin-bottom: 10vh;
-    cursor:pointer;
+    cursor: pointer;
     height: 25px;
     width: 30px;
     scale: 300%;
+    margin-left: auto;
+    padding-right: 2.5vw;
+    margin-top: -2.5rem;
 }
 
 .dropdown {
     position: relative;
-    display: inline-block;
-    margin-left: 95vw;
+    display: flex;
 }
 
 .dropdown-content {
@@ -94,6 +98,9 @@ body {
     position: absolute;
     background-color: #e1e1e1;
     z-index: 1;
+    margin-left: -4vw;
+    scale: 75%;
+    border-radius: 5px;
 }
 
 .dropdown-content a {
@@ -105,8 +112,25 @@ body {
 
 .dropdown-content a:hover {
     background-color: #ddd;
+    border-radius: 5px;
 }
 
 .show {
     display: block;
+}
+
+.delay-div {
+    height: auto;
+}
+
+.place-p {
+    margin-left: 20px;
+    font-size: x-large;
+    margin-bottom: auto;
+}
+
+.status-p {
+    margin-left: 40px;
+    margin-top: 1vh;
+    margin-bottom: auto;
 }
