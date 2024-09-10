@@ -134,3 +134,7 @@ p, .aside-planning-div {
     margin-top: 1vh;
     margin-bottom: auto;
 }
+
+#planning-form {
+    padding-left: 1vw;
+}
