@@ -1,0 +1,111 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+
+    padding-top: 2vh;
+
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.sidebar-l {
+    width: 6vw;
+    height: 87%;
+    background-color: rgba(100, 100, 100, 0.1);
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    flex-grow: 1;
+    align-self: flex-start;
+    flex-flow: column wrap;
+    margin-left: 0.5vw;
+    padding-left: 0.5vw;
+}
+
+.content {
+    width: 36vw;
+    height: 87%;
+    background-color: rgba(100, 100, 100, 0.5);
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+    flex-grow: 4;
+    flex-flow: column wrap;
+    padding-left: 0.5vw;
+}
+
+.sidebar-r {
+    width: 6vw;
+    height: 87%;
+    background-color: rgba(100, 100, 100, 0.1);
+    border: none;
+    border-radius: 10px;
+
+    display: flex;
+
+    flex-grow: 2;
+    flex-flow: column wrap;
+    margin-right: 0.5vw;
+    padding-left: 0.5vw;
+}
+
+.navbar {
+    display: flex;
+    background-color: mediumslateblue;
+    padding: 0.5rem;
+    color: white;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem
+}
+
+.icon {
+    width: 50%;
+    display: flex;
+    justify-items: flex-start;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+
+    padding: 0.5rem;
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: mediumslateblue;
+    color: white;
+}
+
+.copyright {
+    padding-left: 1rem;
+}
+
+.email {
+    padding-right: 1rem;
+}
